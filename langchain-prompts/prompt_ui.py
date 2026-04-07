@@ -5,7 +5,7 @@ import streamlit as st
 
 load_dotenv()
 
-model = ChatOpenAI(model='gpt-4', temperature=1.8, max_completion_tokens=10)
+model = ChatOpenAI(model='gpt-4', temperature=0.2)
 
 st.header("Resarch Tool")
 
